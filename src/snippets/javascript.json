@@ -1,0 +1,23 @@
+{
+    "config配置":{
+        "prefix":"config",
+        "body":[
+            "config = {",
+            "\ttype: \"$0\"",
+            "}"
+        ]
+    },
+    "fileds配置":{
+        "prefix":"fileds",
+        "body":[
+            "fileds:["
+            "\t{",
+            "\t\tlabel: \"$1\"",
+            "\t\tname: \"$2\"",
+            "\t\ttype: \"$3\"",
+            "\t\tplaceholder:\"$4\""
+            "\t}",
+            "]"
+        ]
+    }
+}
